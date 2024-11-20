@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8a5f5cd702.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/NEELESH-243x107.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>FRONTEND DEVELOPER</p>
+          <h1>
+            Hi, I am <span>Neelesh Pataki</span> <br />
+            from Goa.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/WhatsApp Image 2024-11-20 at 15.40.53_d5d0c7e2-624x811.png"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p class="sub-para">
+              Hi, I’m Neelesh, a passionate Frontend Developer, building
+              responsive, user-friendly websites and web applications. I
+              specialize in HTML, CSS, JavaScript, and modern frameworks like
+              React. My goal is to create seamless, interactive web experiences
+              that are both visually appealing and highly functional.
+              <br /><br />I thrive on turning complex designs into clean,
+              maintainable code and focus on delivering pixel-perfect results
+              that meet both user needs and business goals. I'm always learning
+              new technologies and staying up-to-date with industry trends to
+              ensure my work is cutting-edge. <br /><br />Outside of coding, I
+              enjoy traveling or riding to other states which keeps my
+              creativity flowing. If you’re interested in collaborating or
+              learning more about my work, feel free to reach out!
+            </p>
+            <br />
+            <div class="tab-titles">
+              <!-- <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p> -->
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <br />
+            <!-- <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>C/C++ Programming</span><br />Developing system
+                  software, application software.
+                </li>
+                <li>
+                  <span>JAVA</span><br />Developing desktop applications, system
+                  software, server applications.
+                </li>
+                <li><span>MySQL</span><br />Database Handling.</li>
+                <li><span>MongoDB</span><br />Database Handling.</li>
+                <li><span>HTML</span><br />Web App Development.</li>
+                <li>
+                  <span>JavaScript</span><br />Creating interactive web pages
+                  and applications
+                </li>
+                <li>
+                  <span>React</span><br />Building user interfaces (UIs) for
+                  websites.
+                </li>
+                <li><span>Solidworks</span><br />Creating CAD/CAM design.</li>
+                <li><span>ANSYS</span><br />Stress and Strain analysis.</li>
+              </ul>
+            </div> -->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>AUG-2023 - MAY 2024</span><br />Service Manager at
+                  Coffee Day Global Ltd.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />PGDAC at MET BKC Nashik.</li>
+                <li>
+                  <span>2023</span><br />BE in Mechanical Engineering from Don
+                  Bosco College of Engineering Goa.
+                </li>
+                <li>
+                  <span>2020</span><br />Diploma in Mechanical Engineering from
+                  Government Polytechnic Curchorem, Goa.
+                </li>
+                <li><span>2014</span><br />SSC from Goa Board.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills -->
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+          <div>
+            <i class="fa-solid fa-c"></i>
+            <h2>C/C++</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>JAVA</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>MySQL</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3"></i>
+            <h2>CSS</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>JavaScript</h2>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-gear"></i>
+            <h2>SolidWorks</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/s1-650x800.png" />
+            <div class="layer">
+              <h2>E-Shopping Website</h2>
+              <p>
+                The website that allows to shop anything from the website from
+                all over India.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/s2-650x800.png" />
+            <div class="layer">
+              <h2>Weather Website</h2>
+              <p>
+                The website shows all the weather information of all over India.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/s3-650x800.png" />
+            <div class="layer">
+              <h2>News Website</h2>
+              <p>
+                This website shows all the trending news from India and also
+                around the world in a single click.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>neeleshpatki@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9561749123</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/neeleshpatki"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="images/Neelesh Pataki Resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your E-mail"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Neelesh Pataki.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
